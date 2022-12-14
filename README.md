@@ -33,27 +33,9 @@
 * Visualising nodes connecting with rqt_graph
   ```bash
   rqt_graph
-  ![alt text]()
+  ![alt text](https://github.com/darshan-kt/ros2_project/blob/master/rqt.png)
   ```
 
-* Subscribe the ackermann messages from the topic `/cmd_acker`.
-  ```xml
-  <!--  Demo  -->
-  ---
-  header: 
-    seq: 224
-    stamp: 
-      secs: 1649337997
-      nsecs:  48033928
-    frame_id: ''
-  drive: 
-    steering_angle: 0.270921677351
-    steering_angle_velocity: 100.0
-    speed: 0.10000000149
-    acceleration: 100.0
-    jerk: 100.0
-  ---
-  ```
 
 ## Acknowledgment
 
