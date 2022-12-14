@@ -33,8 +33,8 @@
 * Visualising nodes connecting with rqt_graph
   ```bash
   rqt_graph
-  ![alt text](https://github.com/darshan-kt/ros2_project/blob/master/rqt.png)
   ```
+  ![alt text](https://github.com/darshan-kt/ros2_project/blob/master/rqt.png)
 
 
 ## Acknowledgment
