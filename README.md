@@ -7,16 +7,21 @@
 ## Package installation
 
 
-* Run the Pure-Pursuit
-  * Source the setup.bash
-    ```bash
-    cd ros_ws
-    source devel/setup.bash
-    ```
+* Create workspace and install package
   
-  * Launch the Pure-Pursuit node
+  ```bash
+  mkdir -p ros2_ws/src
+  cd ~ros2_ws/src
+  git clone
+  cd ..
+  colcon build
+  ```
+  
+  * Running publisher node
     ```bash
-    roslaunch pure_pursuit pure_pursuit_node.launch
+    cd ~ros2_ws
+    source install/setup.bash
+    ros2 run ros2_pkg 
     ```
 
 * Play the rosbag for offline testing
