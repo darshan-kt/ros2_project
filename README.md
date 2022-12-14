@@ -12,17 +12,23 @@
   ```bash
   mkdir -p ros2_ws/src
   cd ~ros2_ws/src
-  git clone
+  git clone https://github.com/darshan-kt/ros2_project.git
   cd ..
   colcon build
   ```
-  
-  * Running publisher node
-    ```bash
-    cd ~ros2_ws
-    source install/setup.bash
-    ros2 run ros2_pkg 
-    ```
+
+* Running publisher node
+  ```bash
+  cd ~ros2_ws
+  source install/setup.bash
+  ros2 run ros2_pkg publisher_node
+  ```
+* Running publisher node
+  ```bash
+  cd ~ros2_ws
+  source install/setup.bash
+  ros2 run ros2_pkg subscriber_node
+  ```
 
 * Play the rosbag for offline testing
   ```bash
