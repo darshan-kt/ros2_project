@@ -30,9 +30,10 @@
   ros2 run ros2_pkg subscriber_node
   ```
 
-* Play the rosbag for offline testing
+* Visualising nodes connecting with rqt_graph
   ```bash
-  rosbag play offline_testing.bag
+  rqt_graph
+  ![alt text]()
   ```
 
 * Subscribe the ackermann messages from the topic `/cmd_acker`.
