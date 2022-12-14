@@ -29,13 +29,24 @@
   source install/setup.bash
   ros2 run ros2_pkg subscriber_node
   ```
-
+* Running both publisher node and subscriber node in a single launch file
+  ```bash
+  cd ~ros2_ws
+  source install/setup.bash
+  ros2 launch ros2_pkg pub_sub_v1_launch.py
+  ```
 * Visualising nodes connecting with rqt_graph
   ```bash
   rqt_graph
   ```
   ![alt text](https://github.com/darshan-kt/ros2_project/blob/master/rqt.png)
 
+* Running 2 nodes in a single script.
+  ```bash
+  cd ~ros2_ws
+  source install/setup.bash
+  ros2 run ros2_pkg executor_node 
+  ```
 
 ## Acknowledgment
 
